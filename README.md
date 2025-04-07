@@ -32,9 +32,10 @@ Usage Instructions:
 Security Note: It is crucial to restrict the API key to only the BigQuery API and the specific application or IP addresses that will be using it. Avoid committing the API key directly to your codebase. Instead, use environment variables or a secure configuration management system.
 
 Usage Instructions: 
---(Less Secure, API Key): 
+(Less Secure, API Key): 
 You obtain an API key from the Cloud Console and explicitly pass it when creating the bigquery.Client. This is generally not recommended for production.
---(More Secure, Recommended - Service Accounts and ADC):
+
+(More Secure, Recommended - Service Accounts and ADC):
 1. You create a Service Account with the necessary BigQuery permissions.
 2. You download a JSON key file for the Service Account.
 3. You set the GOOGLE_APPLICATION_CREDENTIALS environment variable to the path of this key file.
