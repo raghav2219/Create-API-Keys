@@ -14,7 +14,7 @@ Security Note: Treat your Gemini API key like a password. Store it securely and 
 
 Usage Instructions: 
 
-##BigQuery API Key Setup:
+## BigQuery API Key Setup:
 1. Head to the Google Cloud Console: Open your web browser and go to the Google Cloud Console. Make sure you're logged into the Google account associated with your project.
 2. Select Your Project: If you have multiple projects, ensure the correct one is selected at the top.
 3. Navigate to Credentials: In the left-hand navigation menu, go to APIs & Services and then click on Credentials.
