@@ -1,7 +1,5 @@
-# Create-API-Keys
-Instructions on API key creation and usage.
-
 # Title: Step-by-step process of making API keys for Gemini and BigQuery:
+Think of this key as a secure way for our project to talk to Gemini and BigQuery without us having to manually log in every time.
 
 ## Gemini API Key Setup:
 1. Go to the Google AI Studio: Open your browser and navigate to Google AI Studio.
