@@ -32,6 +32,7 @@ Usage Instructions:
 Security Note: It is crucial to restrict the API key to only the BigQuery API and the specific application or IP addresses that will be using it. Avoid committing the API key directly to your codebase. Instead, use environment variables or a secure configuration management system.
 
 Usage Instructions: 
+
 (Less Secure, API Key): 
 You obtain an API key from the Cloud Console and explicitly pass it when creating the bigquery.Client. This is generally not recommended for production.
 
